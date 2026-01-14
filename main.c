@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "./raylib/include/raylib.h"
+#include <raylib.h>
 
-const int WINDOW_HEIGHT;
-const int WINDOW_WIDTH;
+const int WINDOW_HEIGHT= 1280;
+const int WINDOW_WIDTH= 720;
 const char *title = "simple raylib game";
 
 int main(void)
