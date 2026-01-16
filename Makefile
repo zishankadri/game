@@ -13,5 +13,8 @@ $(TARGET): $(SRC)
 clean:
 	rm -f $(TARGET)
 
+run: all
+	./$(TARGET)
+
 .PHONY: all clean
 
